@@ -1,0 +1,14 @@
+{
+	"id": "cc-aim-assist",
+	"version": "0.1.0",
+	"title": "CrossCode Aim Assist",
+	"description": "Very gentle controller aim assist — nudges analog aim slightly toward the nearest enemy within a small cone. No lock-on. Compatible with the cc-ios iOS wrapper.",
+	"repository": "https://github.com/Yoyokrazy/cc-aim-assist",
+	"homepage": "https://github.com/Yoyokrazy/cc-aim-assist",
+	"authors": ["Yoyokrazy"],
+	"tags": ["QoL", "controller"],
+	"prestart": "prestart.js",
+	"dependencies": {
+		"crosscode": "^1.1.0 || 1.0.2"
+	}
+}

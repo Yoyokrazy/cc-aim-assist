@@ -1,0 +1,24 @@
+# ---- CrossCode game files: NEVER commit copyrighted game assets ----
+CrossCode/
+**/CrossCode/
+GameData/
+assets-cc/
+
+# ---- build / release artifacts ----
+# A built mod is a zipped .ccmod (release artifact) — the source lives as a folder.
+*.ccmod
+dist/
+build/
+node_modules/
+
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# ---- misc ----
+*.log
+.env
+*.local
